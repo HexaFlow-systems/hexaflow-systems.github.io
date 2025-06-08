@@ -63,6 +63,73 @@ header {
   max-width: 100%;
   border-radius: 8px;
 }
+
+.services-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 4rem 0;
+}
+
+.service-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f0f0f0;
+  padding: 2rem 5%;
+  border-radius: 8px;
+}
+
+.service-block.left .service-image {
+  order: 1;
+  margin-right: 10%;
+}
+.service-block.left .service-text {
+  order: 2;
+}
+.service-block.right .service-image {
+  order: 2;
+  margin-left: 10%;
+}
+.service-block.right .service-text {
+  order: 1;
+}
+
+.service-image {
+  flex: 0 0 35%;
+}
+.service-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.service-text {
+  flex: 1;
+}
+.service-text h3 {
+  font-size: 1.6rem;
+  color: #00a6a6;
+  margin-bottom: 0.6rem;
+}
+.service-text p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.contact-btn {
+  background-color: #00a6a6;
+  color: white;
+  padding: 0.6rem 1.4rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.contact-btn:hover {
+  background-color: #008c8c;
+}
+
 .carousel {
   overflow-x: auto;
   display: flex;
