@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HexaFlow | Ihor Bondarenko</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">HexaFlow</div>
+    <div class="lang-switcher">
+      <select id="languageSelect">
+        <option value="uk">UA</option>
+        <option value="pl">PL</option>
+        <option value="en">EN</option>
+      </select>
+    </div>
+  </header>
+
+  <section id="home" class="section">
+    <div class="content left">
+      <h1 data-uk="Ласкаво просимо до HexaFlow"
+          data-pl="Witamy w HexaFlow"
+          data-en="Welcome to HexaFlow">Ласкаво просимо до HexaFlow</h1>
+      <p data-uk="3D моделювання гідравлічних та пневматичних систем"
+         data-pl="Modelowanie 3D systemów hydraulicznych i pneumatycznych"
+         data-en="3D modeling of hydraulic and pneumatic systems">
+         3D моделювання гідравлічних та пневматичних систем</p>
+    </div>
+    <div class="image right">
+      <img src="https://via.placeholder.com/500x300" alt="HexaFlow preview" />
+    </div>
+  </section>
+
+  <section id="services" class="section alt">
+    <div class="image left">
+      <img src="https://via.placeholder.com/500x300" alt="Services" />
+    </div>
+    <div class="content right">
+      <h2 data-uk="Послуги" data-pl="Usługi" data-en="Services">Послуги</h2>
+      <ul>
+        <li data-uk="Розробка та розрахунок гідравлічних і пневматичних систем"
+            data-pl="Projektowanie i obliczanie systemów hydraulicznych i pneumatycznych"
+            data-en="Design and calculation of hydraulic and pneumatic systems">
+            Розробка та розрахунок гідравлічних і пневматичних систем</li>
+        <li data-uk="Підбір компонентів (включно з адаптерами, перехідниками)"
+            data-pl="Dobór komponentów (w tym adaptery, przejściówki)"
+            data-en="Component selection (including adapters, fittings)">
+            Підбір компонентів (включно з адаптерами, перехідниками)</li>
+        <li data-uk="Моделювання збірок для подальшого використання замовником"
+            data-pl="Modelowanie zespołów dla dalszego wykorzystania przez klienta"
+            data-en="Assembly modeling for client use">
+            Моделювання збірок для подальшого використання замовником</li>
+        <li data-uk="Моделювання трубопроводів з наданням таблиць гибів"
+            data-pl="Modelowanie rurociągów z tabelami gięcia"
+            data-en="Pipeline modeling with bend tables">
+            Моделювання трубопроводів з наданням таблиць гибів</li>
+        <li data-uk="Модернізація існуючих систем"
+            data-pl="Modernizacja istniejących systemów"
+            data-en="Modernization of existing systems">
+            Модернізація існуючих систем</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2 class="center" data-uk="Проекти" data-pl="Projekty" data-en="Projects">Проекти</h2>
+    <div class="carousel">
+      <div class="carousel-track">
+        <div class="card"><img src="https://via.placeholder.com/300x200" alt="Project 1" /></div>
+        <div class="card"><img src="https://via.placeholder.com/300x200" alt="Project 2" /></div>
+        <div class="card"><img src="https://via.placeholder.com/300x200" alt="Project 3" /></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <h3 data-uk="Зв’язатися з нами" data-pl="Skontaktuj się z nami" data-en="Contact Us">Зв’язатися з нами</h3>
+    <form>
+      <input type="text" placeholder="Ім’я / Name" />
+      <input type="email" placeholder="Email" />
+      <textarea placeholder="Повідомлення / Message"></textarea>
+      <button type="submit">Надіслати</button>
+    </form>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
