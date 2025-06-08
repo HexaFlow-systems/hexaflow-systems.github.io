@@ -8,13 +8,43 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 1rem 2rem;
   background-color: #e0f7f7;
+  flex-wrap: wrap;
 }
-.logo {
-  font-weight: bold;
-  font-size: 1.5rem;
+.header-left .logo {
+  height: 50px;
+}
+.header-center {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex: 1;
+}
+.header-center a {
+  text-decoration: none;
   color: #00a6a6;
+  font-weight: bold;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.header-right .contact {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.header-right .phone, .header-right .email {
+  font-size: 0.9rem;
+  color: #333;
+}
+.lang-switcher select {
+  padding: 0.25rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 .section {
   display: flex;
