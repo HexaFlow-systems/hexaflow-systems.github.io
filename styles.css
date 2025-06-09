@@ -57,7 +57,7 @@ header {
 }
 .section .content, .section .image {
   flex: 1 1 45%;
-  padding: 1rem;
+  
 }
 .section .image img {
   max-width: 100%;
