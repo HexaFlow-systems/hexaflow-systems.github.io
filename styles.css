@@ -177,7 +177,7 @@ footer button {
   border-radius: 5px;
 }
 
-/* ===== MOBILE ADAPTATION ===== */
+/* ===== MOBILE ADAPTATION ===== 
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -237,4 +237,4 @@ footer button {
   footer form {
     padding: 1rem;
   }
-}
+} */
