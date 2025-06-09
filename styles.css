@@ -82,6 +82,7 @@ header {
 
 .service-block.left .service-image {
   order: 1;
+  margin-left: 0%;
   margin-right: 10%;
 }
 .service-block.left .service-text {
@@ -97,6 +98,7 @@ header {
 
 .service-image {
   flex: 0 0 35%;
+  padding: 1rem;
 }
 .service-image img {
   width: 100%;
