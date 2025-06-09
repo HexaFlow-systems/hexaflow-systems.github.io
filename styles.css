@@ -88,12 +88,19 @@ header {
 .service-block.left .service-image {
   order: 1;
   margin-left: 0;
-  margin-right: 0;
+  margin-right: 10%;
 }
+.service-block.left .service-text {
+  order: 2;
+}
+
 .service-block.right .service-image {
   order: 2;
-  margin-left: 0;
+  margin-left: 10%;
   margin-right: 0;
+}
+.service-block.right .service-text {
+  order: 1;
 }
 
 .service-image {
