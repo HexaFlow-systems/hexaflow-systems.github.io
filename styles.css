@@ -241,7 +241,7 @@ footer .social-icons a:hover img {
   transform: scale(1.2);
 }
 
-/* ===== MOBILE ADAPTATION ===== 
+/* ===== MOBILE ADAPTATION =====*/ 
 @media (max-width: 768px) {
   header {
     flex-direction: column;
